@@ -1,0 +1,16 @@
+name: 'Hello World Action by Hitomiblood'
+description: 'A simple GitHub Action that prints "Hello, World!"'
+inputs:
+  who-to-greet:
+    description: 'Who to greet'
+    required: false
+    default: 'World'
+outputs:
+  time:
+    description: 'The time when the action was run'
+runs:
+  using: 'node20'
+  main: 'index.js'
+branding:
+  icon: 'message-square'
+  color: 'blue'
