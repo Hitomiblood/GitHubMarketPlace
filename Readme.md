@@ -29,7 +29,7 @@ Esta acción de GitHub te permite saludar a alguien o algo, e imprime el payload
 
 ```yaml
 steps:
-  - name: Hello World
+  - name: Hello World 
     uses: username/hello-world-action@v1.0
     
   # Este paso usará el valor predeterminado 'World'
